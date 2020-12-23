@@ -35,7 +35,7 @@ function Message() {
 
 //if browser support service worker
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js');
+    navigator.serviceWorker.register('./sw.js');
 }
 $("#Popups").hide()
 // Detects if device is on iOS
