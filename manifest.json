@@ -3,17 +3,17 @@
   "name": "My PWA 1st Prototype",
   "icons": [
     {
-      "src": "./pwaIos.github.io/images/icons-192.png",
+      "src": "./pwaIospopup/images/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./pwaIos.github.io/images/icons-512.png",
+      "src": "./pwaIospopup/images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "./pwaIos.github.io/index.html",
+  "start_url": "./pwaIospopup/index.html",
   "background_color": "#000000",
   "display": "standalone",
   "theme_color": "#ff0000"

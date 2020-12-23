@@ -23,7 +23,7 @@ function eraseCookie(name) {
 
 
 
-$.getJSON('/pwaIos.github.io/manifest.json',(json)=> {
+$.getJSON('/pwaIospopup/manifest.json',(json)=> {
     window.document.getElementById('icon').style.backgroundImage = "url("+json.icons[0].src+")"
 })
 function Message() {
@@ -35,7 +35,7 @@ function Message() {
 
 //if browser support service worker
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/pwaIos.github.io/sw.js');
+    navigator.serviceWorker.register('/pwaIospopup/sw.js');
 }
 $("#Popups").hide()
 // Detects if device is on iOS
